@@ -54,7 +54,7 @@ public class MathUtil {
     
     public static long getFactorial (int n){
         if (n < 0 || n > 20){
-            throw new IllegalArgumentException("n must be between 0..20");
+            throw new IllegalArgumentException("Invalid argument. N must be b/w 0..20");
         }
         if (n == 0 || n == 1){
             return 1; //kết thức cuộc chơi sớm nếu nhận giá trị đầu vào đặc biệt
